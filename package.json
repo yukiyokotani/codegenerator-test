@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.ts",
   "scripts": {
-    "codegen": "node --loader ts-node/esm ./main.ts"
+    "codegen": "ts-node -P ./tsconfig.json ./main.ts"
   },
   "author": "",
   "license": "MIT",
